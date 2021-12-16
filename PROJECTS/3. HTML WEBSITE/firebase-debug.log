@@ -1,0 +1,28 @@
+[debug] [2021-09-25T11:03:39.331Z] ----------------------------------------------------------------------
+[debug] [2021-09-25T11:03:39.334Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\TAHA-PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-25T11:03:39.335Z] CLI Version:   8.9.2
+[debug] [2021-09-25T11:03:39.335Z] Platform:      win32
+[debug] [2021-09-25T11:03:39.335Z] Node Version:  v12.18.3
+[debug] [2021-09-25T11:03:39.337Z] Time:          Sat Sep 25 2021 16:03:39 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-09-25T11:03:39.337Z] ----------------------------------------------------------------------
+[debug] [2021-09-25T11:03:39.337Z] 
+[debug] [2021-09-25T11:03:39.350Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-25T11:03:39.351Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\TAHA-PC\Desktop\MERN STACK COURSE\PROJECTS\3. HTML WEBSITE
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 

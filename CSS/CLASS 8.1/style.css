@@ -1,0 +1,63 @@
+ /* used for making site responsive on selective device 
+ body{
+background-color: blue;
+}
+
+@media only screen and ( max-width:800px ){
+
+body{
+background-color: green;
+}
+
+}
+
+@media only screen and ( max-width:600px ){
+
+body{
+background-color: black;
+}
+
+} 
+
+ FLex box 
+ div{
+ if I want them in one line 
+display:flex; 
+if I want to give space btw elements
+ justify-content: space-between;
+ if I want to give space btw and around elements. it is for row
+ justify-content: space-around;
+
+ for colum usesame for it and use as many as you wan
+ align-content: space-around;
+
+ if want to close content and start from new line
+ flex-wrap: wrap;
+
+ for reversing one from last
+ flex-direction: row-reverse ;
+for column use 
+flex-direction: column-reverse; 
+
+} 
+
+ if you want to give width acc to flex use flex 
+ .one{
+width: 300px;
+height: 100px;
+background-color: red;
+flex: 2;
+
+}
+.two{
+width: 300px;
+height: 100px;
+background-color: rgb(30, 23, 126);
+flex: 4;
+}
+.three{
+width: 300px;
+height: 100px;
+background-color: rgba(42, 151, 15, 0.63);
+flex: 2;
+}  */

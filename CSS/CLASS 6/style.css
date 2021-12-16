@@ -1,0 +1,172 @@
+/* h1{
+    adding shadow to text top/bottowm left/right blur/ color
+    text-shadow: 2px 1px 1px #000000;
+}
+
+For changing the first letter
+h1::first-letter{
+    font-size: 2em;
+}
+
+For changing the first line
+p::first-line{
+font-weight: 600;
+}
+
+styling links
+a:link{
+    color: green;
+}
+a:visited{
+    color: hotpink;
+}
+
+Responding user
+
+input:hover{
+    background-color: hotpink;
+}
+button:active{
+    background-color: indigo;
+}
+input:focus{
+    background-color: lawngreen;
+}
+ */
+
+
+
+/* BOXES */
+
+/* div {
+    Adding border size style color
+    border: 1px solid red;
+    we can give width and height to div or elements
+    width: 70%;
+    height: 50%;
+    max width and max height
+    min-width: 200px;
+    max-width: 500px;
+    max height min-height
+    min-height: 200px;
+    max-height: 400px;
+
+}
+
+For controlling the over flowing content
+div {
+    when you hide the extra content
+
+    overflow: hidden;
+    when you hide the extra content but it can be shown on scroll 
+     overflow: scroll;
+
+}
+
+
+
+div p{
+    border: 1px solid black;
+    
+    if you want to give width to border
+    border-width: 10px;
+} */
+
+
+/* Alignment */
+/* .and {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px auto;
+    text-align: center;
+
+
+}
+
+.text{
+    width: 60%;
+    height: 60%;
+    border: 1px solid black;
+    margin: 10px auto;
+    
+}
+
+img {
+    width: 60%;
+    height: 70%;
+    padding: 5px;
+
+} */
+
+
+
+
+/* Inline and Block */
+/* Turn inline to block
+and
+block to inline
+also hide */
+
+/* li{
+    display: inline;
+    if you want padding and margin with inline use 
+     display: inline-block;
+}
+
+.two{
+    display: none;
+}
+ Visibilty of the element 
+
+ .three{
+    setiing will remain there elemt will only hide
+ visibility: hidden;
+ or you can visible it
+visibility: visible;
+} */
+
+
+/* Box and Text Shadow */
+
+/* div {
+    margin: auto;
+    width: 30%;
+    box-shadow: 3px 3px 3px black;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+} */
+
+
+/* Border Radius */
+
+/* h1{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+} */
+
+
+/* List style */
+/* we can convet ul style to ol style */
+/* ul{
+list-style-type: decimal;
+ inside position to list 
+list-style-position: inside;
+
+}
+ and 
+ ol style to ul style 
+ol{
+    list-style-type: circle;
+     outside position to list 
+ list-style-position: outside;
+}
+
+
+ list short hand 
+ .shorthand{
+    list-style: lower-alpha  inside;
+}  */

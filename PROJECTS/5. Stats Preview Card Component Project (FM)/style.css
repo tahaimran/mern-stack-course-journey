@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: beige;
+    font-family: 'Inter', sans-serif;
+
+}
+
+
+
+/* All */
+.allitems {
+
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    background-color: hsl(244, 38%, 16%);
+    border: 1px solid hsl(244, 38%, 16%);
+    border-radius: 8px;
+    margin: auto auto;
+}
+
+
+/* Images */
+.image {
+    background: hsl(277, 64%, 61%);
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+img {
+    opacity: 0.2;
+    width: 100%;
+
+}
+
+
+
+/* Text */
+.alltext {
+    max-width: 350px;
+    height: auto;
+    margin: auto auto;
+    text-align: left;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+
+/* List */
+div .list {
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: space-between;
+
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+    * {
+        text-align: center;
+    }
+
+  div  .list {
+        display: flex;
+        flex-flow: column wrap;
+       margin: 0px auto;
+
+    }
+   
+    .image {
+        border-radius: 8px 8px 0px 0px;
+    
+    }
+    /* .allitems{
+      padding-bottom: 50px;
+    } */
+}

@@ -1,0 +1,97 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topImg{
+    position: absolute !important;
+    right: 0px;
+    top: 0px;
+ z-index: -1;   
+}
+.botImg {
+    position: absolute !important;
+    bottom: 0px;
+    z-index: -1;   
+
+}
+
+.plan{
+    padding: 50px;
+}
+.shadow{
+   margin: 20px 0px !important;
+   background-color: white;
+
+}
+.form-switch{
+    padding-left: 3em !important;
+    padding-right: 0.5em !important;
+    margin-bottom: 50px !important;
+
+}
+.form-switch .form-check-input{
+    background-color:  hsl(237, 63%, 64%) !important;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 50px !important; 
+}
+
+h1{
+    color: hsl(232, 13%, 33%);
+    margin-top:80px !important;
+}
+p, h3, button{
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+.switche p {
+    color: hsl(234, 14%, 74%) !important;
+}
+
+h2{
+    font-size: 55px !important;
+    font-weight: 700 !important;
+}
+
+hr{
+    width: 80%;
+    margin-left: 30px !important;
+
+}
+
+button{
+    background-image: linear-gradient(to right, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    color: hsl(240, 78%, 98%) !important;
+    width: 80%;
+
+}
+
+.pro{
+    background-image: linear-gradient(to bottom, hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+    color: hsl(240, 78%, 98%) !important;
+}
+.pro .btn{
+    background-image: none;
+    background-color: hsl(240, 78%, 98%) !important;
+    color:  hsl(237, 63%, 64%) !important;
+    
+}
+.pro .btn:hover{
+    background-image: none;
+    background-color:inherit !important;
+    color: hsl(240, 78%, 98%) !important  ;
+    
+}
+button:hover{
+    background-image: none;
+    background-color:hsl(240, 78%, 98%) !important ;
+    color:  hsl(237, 63%, 64%) !important;
+    border: 1px solid  hsl(234, 14%, 74%);
+   transition-duration: 0.5s;
+}

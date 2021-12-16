@@ -1,0 +1,20 @@
+.head {
+    display: flex;
+    border: 1px solid black;
+    font-size: 2em;
+}
+.head h2 {
+    margin: 0px auto;
+
+}
+
+
+
+
+
+button {
+    display:  inline-block;
+    width: 80px;
+    height: 40px;
+   
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Events
+    <input type="text" id="text" onfocus="this.style.backgroundColor='green';"
+        onblur="this.style.border='8px solid black'">
+    <button onclick="foo()" onMouseover="this.style.backgroundColor='yellow';">ENter</button>
+
+
+    <img src="https://cdn.motor1.com/images/mgl/mrz1e/s1/coolest-cars-feature.webp" onclick="alert('hello')"
+        onmouseout="imgOut()" onmouseover="imgs()" width="300px" height="auto" alt="" srcset=""> -->
+
+
+    <!-- Calculator -->
+    <div class="main">
+        <div>
+            <input id="result" type="text">
+        </div>
+        <div>
+            <button onclick="reset()">c</button>
+            <button onclick="getNum('/')">/</button>
+        </div>
+        <div>
+            <button onclick="getNum('7');">7</button>
+            <button onclick="getNum('8');">8</button>
+            <button onclick="getNum('9');">9</button>
+            <button onclick="getNum('+');">+</button>
+        </div>
+        <div>
+            <button onclick="getNum('4');">4</button>
+            <button onclick="getNum('5');">5</button>
+            <button onclick="getNum('6')">6</button>
+            <button onclick="getNum('-');">-</button>
+        </div>
+        <div>
+            <button onclick="getNum('1');">1</button>
+            <button onclick="getNum('2');">2</button>
+            <button onclick="getNum('3');">3</button>
+            <button onclick="getNum('*');">*</button>
+        </div>
+        <div>
+            <button onclick="getNum('0');">0</button>
+            <button onclick="result()">=</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

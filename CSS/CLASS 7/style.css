@@ -1,0 +1,146 @@
+/* if targeting even rows */
+tr.even{
+  background-color: lightgray;
+}
+/* if targeting odd rows */
+
+tr{
+    background-color: lightgreen;
+}
+
+/* remove space b/w column through css */
+table{
+    /* border-collapse: collapse; */
+    /* spacing b/wn cell */
+    border-spacing: 5px 10px;
+
+    /* delete empty cell */
+    empty-cells: hide;
+}
+
+
+/* Cursor with styling */
+/* button{
+    width: 100px;
+    height: 40px;
+    font-size: 1.5em;
+    color: rgb(250, 246, 246);
+    font-weight: 600;
+    background-color: rgb(102, 247, 252);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(59, 78, 78);
+    cursor: pointer;
+    transition-duration:0.5s
+
+}
+button:active{
+    background-color: royalblue;
+    transition-duration:0s
+
+} */
+
+/* body{
+    background-color: aqua;
+}
+/* pOSITIONS */
+/* 
+div{
+    we have to change position of div 
+    display: inline-block;
+    
+    }
+
+.first{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    
+}
+.second{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(241, 238, 238);
+}
+img{  */
+    /* by defalut all are static 
+    width: 80px;*/
+    /* in absolute we can move it every where */
+    /* position: absolute;
+    left: 18px; 
+     top: 18px;*/
+
+    /* in relative it will take poision from where we left */
+    /* position: relative;
+    right: 32%;
+    bottom: 10px; 
+}
+
+*/
+
+
+
+/* fixed */
+
+/* .imgs{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+img{
+    width: 20px;
+    position: fixed;
+} */
+
+
+
+/* zindex */
+/* it will show over lapped text */
+/* .first{
+    background-color: red;
+    width: 300px;
+}
+
+.second{
+    background-color: blue;
+    width: 300px;
+position: absolute;
+top: -1px;
+z-index: -1;
+
+
+} */
+
+
+
+/* float */
+
+/* add with all elemts so that they will start from left */
+/* itw ill make site responsive */
+
+.first{
+    background-color: red;
+    width: 300px;
+    float: left;
+}
+.second{
+    background-color: blue;
+    width: 200px;
+    float: left;
+
+    
+}
+.third{
+    background-color: royalblue;
+    width: 200px;
+    float: left;
+
+}
+/* for controlling text starting from boxes we use clear */
+p{
+    clear: both;
+
+}

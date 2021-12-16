@@ -1,0 +1,11 @@
+.main{
+    border: 1px solid black;
+    width: 35%;
+}
+input{
+    width: 97%;
+}
+button{
+    width: 50px;
+    margin:2px;
+}

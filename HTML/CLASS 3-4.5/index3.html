@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS 3 CODE</title>
+</head>
+
+<body>
+    
+    <!-- Creating A table -->
+    <table border="2px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Taha</td>
+            <td>ALi</td>
+            <td>Basit</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <th>Male</th>
+            <td>Male</td>
+            <td>Male</td>
+        </tr>
+
+    </table>
+
+    <!-- FORM -->
+    <form action="" method="get">
+        <!-- Adding border to desired location -->
+        <fieldset>
+            <!-- adding tag with border -->
+            <legend>Enter Your Info</legend>
+
+
+            <p>Enter Your Name
+                <!-- Text Type Input -->
+                <input type="text" size="15" maxlength="30">
+            </p>
+            <!-- Text area -->
+            <p> Your Vision
+                <textarea name="comment" id="" cols="20" rows="5"></textarea>
+            </p>
+            <!-- Radio -->
+            <p><b>Gender::</b>
+                Men<input type="radio" name="gender" value="men" id="">
+                Woman<input type="radio" name="gender" value="woman" id="">
+                Other<input type="radio" name="gender" value="other" id="">
+            </p>
+
+            <!-- Check Box -->
+            <p><b>More Than One::</b>
+                Mango<input type="checkbox" name="fruit" value="Mango" id="">
+                Orange<input type="checkbox" name="fruit" value="Orange" id="">
+                Apple<input type="checkbox" name="fruit" value="Apple" id="">
+
+            </p>
+
+            <!-- Drop Down List -->
+            <p>Select Your Country
+                <select name="Country" id="">
+                    <option value="pak">pak</option>
+                    <option value="ksa">ksa</option>
+                    <option value="uae">uae</option>
+                </select>
+                <!-- You can select multiple option by adding multiple attribute -->
+            </p>
+
+            <!-- Upload -->
+            <p>Upload For Pic
+                <input type="file" name="pic" id="">
+            </p>
+
+            <!-- Submit -->
+            <input type="submit" value="Submit">
+            <!-- OR -->
+            <button type="submit">Submit</button> <br>
+
+
+            <!-- Hidden -->
+            <input type="text" hidden>
+
+
+            <!-- For validation add required -->
+            <!-- for adding text inside input use placeholder -->
+            <!-- Email url search date -->
+            <input type="email" required placeholder="Enter Email"><br>
+            <input type="search"><br>
+            <input type="url"><br>
+            <input type="date">
+
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+
+</html>

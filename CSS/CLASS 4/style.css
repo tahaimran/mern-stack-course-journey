@@ -1,0 +1,40 @@
+
+/* for selecting the whole page */
+*{
+    /* color hex */
+    background-color: #3d3d8f;
+}
+/* This h1 and any other html element written here will be called selector */
+/* selecting multiple */
+
+h1,p{
+    /* colorname */
+    color: white;
+    background-color: black;
+}
+
+
+/* class */
+.text{
+    color: blueviolet;
+}
+/* unique */
+#unique{
+    color: chartreuse;
+}
+
+/* Desendant sibling selector   */
+
+p b{
+    color: darkblue;
+}
+
+/* General sibling selector   */
+h3~h2{
+color: darkgray;
+}
+
+/* adjecent sibling selector  */
+h3+h4{
+    font-size: 50px;
+}

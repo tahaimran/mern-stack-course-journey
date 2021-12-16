@@ -1,0 +1,187 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.navbar ul li a {
+    color: hsl(243, 87%, 12%) !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+
+h2,
+h3,
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: hsl(243, 87%, 12%);
+}
+
+p {
+    color: hsl(243, 87%, 12%);
+}
+
+button:hover {
+    color: hsl(240, 75%, 98%);
+    opacity: 0.5;
+    transition: 0.5s;
+
+}
+
+
+.top p {
+    color: hsl(243, 87%, 12%);
+
+}
+
+
+
+
+.middle {
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 220% 100%;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.middle .container {
+    padding-top: 10px;
+}
+
+.middle p {
+    color: hsl(243, 87%, 12%);
+}
+
+.middle a {
+    color: hsl(170, 45%, 43%);
+
+}
+
+.middle a:hover {
+    opacity: 0.3;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.testimonial {
+    background-color: hsl(240, 75%, 98%);
+}
+
+
+
+
+
+/* .testimonial h5{
+    font-family: 'Raleway', sans-serif;
+ font-weight: 700;
+}
+ */
+
+.access {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+}
+
+.access h3,
+p {
+
+    color: hsl(240, 75%, 98%);
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    text-align: left;
+}
+footer img{
+ filter: brightness(0) invert(1);
+}
+
+footer ul li {
+    list-style-type: none;
+    color: hsl(240, 75%, 98%);
+    padding-bottom: 10px;
+}
+
+
+footer ul li:hover {
+    color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    transition: 0.3s;
+
+
+}
+
+footer ul li i {
+    font-size: 20px;
+}
+
+footer ul .icons {
+    margin: 20px !important;
+    border: 1px solid hsl(240, 75%, 98%);
+    border-radius: 50% !important;
+    padding: 0.5em 0.6em;
+    transition: 0.3s;
+
+}
+
+footer .top-cont img {
+    padding-right: 10px;
+}
+
+footer .row {
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    body {
+        text-align: center !important;
+    }
+
+    h3,
+    h2 {
+        margin-top: 50px;
+    }
+
+    .testimonial {
+        background-color: hsl(240, 75%, 98%);
+        margin: 40px auto 0px auto !important;
+    }
+
+
+}
+
+
+
+.credits{
+    background-color: hsl(224, 93%, 58%);
+ margin-bottom: 0px;
+ text-align: center;
+}
+
+
+.credits a{
+    color:hsl(240, 75%, 98%) ;
+}
